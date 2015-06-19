@@ -1,4 +1,7 @@
 source 'https://rubygems.org'
 group :test do
-      gem 'cucumber'
+    gem 'cucumber'
+    gem 'capybara'
+    gem 'selenium-webdriver'
+    gem 'poltergeist', ">= 1.4.0"
 end
