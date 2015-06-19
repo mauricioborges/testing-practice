@@ -11,4 +11,5 @@
 1. install rbenv
 1. sudo apt-get install phantomjs
 1. bundle install
-1. bundle exec cucumber
+1. bundle exec cucumber or
+1. HEADLESS=true bundle exec cucumber
