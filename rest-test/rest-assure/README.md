@@ -17,4 +17,4 @@ Fiz no Linux porque estou mais acostumado e o Docker aqui é puro cosmético; se
 ```shell
 ./run.sh
 ```
-e ver o resultado
+e ver o resultado :)
