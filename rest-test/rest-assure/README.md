@@ -18,3 +18,7 @@ Fiz no Linux porque estou mais acostumado e o Docker aqui é puro cosmético; se
 ./run.sh
 ```
 e ver o resultado :)
+
+# Explicando o POM
+
+
