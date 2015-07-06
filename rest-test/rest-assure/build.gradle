@@ -1,15 +1,13 @@
-apply plugin: 'groovy'
+apply plugin: 'groovy' // isso é o que faz o projeto saber como encontrar e compilar os códigos groovy
 
 repositories {
-    mavenCentral()
+    mavenCentral() // aqui é o repositório de onde o gradle vai buscar as dependências
 }
 
 dependencies {
-    compile 'org.codehaus.groovy:groovy-all:2.3.10'
-    testCompile 'org.codehaus.groovy:groovy-all:2.3.10'
-    testCompile 'com.jayway.restassured:rest-assured:2.4.1'
-    testCompile 'com.jayway.restassured:json-schema-validator:2.4.1'
-    testCompile 'junit:junit:4.12'
+    testCompile 'org.codehaus.groovy:groovy-all:2.3.10' //versão do groovy
+    testCompile 'com.jayway.restassured:rest-assured:2.4.1' // o rest assured
+    testCompile 'junit:junit:4.12' // o junit para executar os testes
 }
 
-test.testLogging.exceptionFormat = "full" 
+test.testLogging.exceptionFormat = "full" // configuração de logging dos testes
