@@ -7,7 +7,9 @@ repositories {
 dependencies {
     compile 'org.codehaus.groovy:groovy-all:2.3.10'
     testCompile 'org.codehaus.groovy:groovy-all:2.3.10'
+    testCompile 'com.jayway.restassured:rest-assured:2.4.1'
+    testCompile 'com.jayway.restassured:json-schema-validator:2.4.1'
     testCompile 'junit:junit:4.12'
 }
 
-
+test.testLogging.exceptionFormat = "full" 
