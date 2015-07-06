@@ -11,7 +11,7 @@ Decidi então fazer um teste básico, em moldes similares ao teste que ele apres
 # Da estrutura
 
 # Rodando
-
+**TODO:** stop lying, não funcionou com docker
 Fiz no Linux porque estou mais acostumado e o Docker aqui é puro cosmético; se você já tem um ambiente com Maven 3 na sua máquina, isso deve funcionar. Para quem já tem ou quer testar com o Docker, basta executar:
 
 ```shell
