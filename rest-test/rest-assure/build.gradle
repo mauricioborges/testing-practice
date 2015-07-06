@@ -1,4 +1,3 @@
-apply plugin: 'eclipse'
 apply plugin: 'groovy'
 
 repositories {
@@ -7,4 +6,8 @@ repositories {
 
 dependencies {
     compile 'org.codehaus.groovy:groovy-all:2.3.10'
+    testCompile 'org.codehaus.groovy:groovy-all:2.3.10'
+    testCompile 'junit:junit:4.12'
 }
+
+
