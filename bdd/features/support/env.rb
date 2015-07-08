@@ -11,4 +11,7 @@ else
     Capybara.default_driver = :selenium
 end
 Capybara.default_selector = :css
- 
+
+def network_traffic
+    page.driver.network_traffic
+end
